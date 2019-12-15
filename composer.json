@@ -1,0 +1,29 @@
+{
+    "name": "ericpoe/schrodinger",
+    "description": "A Schrodinger is a trinary-state object that has a state of BOTH until directly observed.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Eric Poe",
+            "email": "eric.poe@gmail.com"
+        }
+    ],
+    "require": {},
+    "config": {
+    "platform": {
+        "php": "7.4.0"
+    },
+    "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "Schrodinger\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Schrodinger\\Tests\\": "tests/"
+        }
+    }
+}
