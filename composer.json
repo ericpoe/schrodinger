@@ -9,7 +9,9 @@
             "email": "eric.poe@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+      "php": "^7.4"
+    },
     "require-dev": {
         "phpstan/phpstan": "^0.12.0",
         "phpunit/phpunit": "^8.5",
